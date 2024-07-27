@@ -1,0 +1,20 @@
+body{
+  font-family: 'Nunito';
+}
+
+.hero{
+  /* height: 500px; */
+}
+
+.carousel-item::before {
+  content: "";
+  background-color: rgba(63, 101, 152, 0.7);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.carousel-item img{
+  /* height: px; */
+}
