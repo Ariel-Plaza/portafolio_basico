@@ -26,7 +26,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg fixed-top bg-gradient" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="./assets/img/logo.svg" alt="Bootstrap" width="130" height="24">
@@ -55,6 +55,7 @@
     </nav>
   </header>
   <main>
+    <!-- agregar copyright a fotografia -->
     <section class="hero">
       <div id="carouselExampleSlidesOnly" class="carousel slide position-relative " data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -72,16 +73,16 @@
           </div>
         </div>
       </div>
-      <div class="container_info position-absolute top-50 start-50 translate-middle">
+      <div class="hero-info col-10 d-flex flex-column align-items-center justify-content-evenly position-absolute top-50 start-50 translate-middle">
         <!-- <img src="..." class="rounded-circle" alt="..."> -->
         <!--  -->
-        <img src="./assets/img/Slider4.jpg" class="d-block w-50 rounded-circle border border-5 rounded-circle">
-        <h1>Here I'am Ariel Plaza</h1>
-        <h6>I'am a Passionate <span class="text-success">Web Designer</span></h6>
+        <img src="./assets/img/ariel_plaza.jpg" class="d-block rounded-circle border border-5 rounded-circle">
+        <h1 class="text-center">Hola, Soy Ariel Plaza</h1>
+        <h6>Soy un Apasionado <span class="text-success">Diseñador web</span></h6>
 
-        <div class="d-grid gap-2 d-md-block">
-          <button class="btn btn-success" type="button">Hire Me</button>
-          <button class="btn btn-success" type="button">Download CV <i class="bi bi-file-earmark-arrow-down"></i>
+        <div class="info-button d-grid gap-2 d-md-block">
+          <button class="btn btn-success w-75 mx-auto" type="button">Hire Me</button>
+          <button class="btn btn-success m-auto" type="button">Download CV <i class="bi bi-file-earmark-arrow-down"></i>
           </button>
         </div>
 

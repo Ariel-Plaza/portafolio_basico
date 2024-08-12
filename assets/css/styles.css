@@ -6,9 +6,8 @@ body{
 }
 
 .hero{
-  /* height: 500px; */
+  
 }
-
 .carousel-item::before {
   content: "";
   background-color: rgba(43, 68, 102, 0.7);
@@ -21,4 +20,19 @@ body{
 .carousel-item img{
   height: 825px; 
   object-fit: cover;
+}
+.hero-info{
+  height: 490px;
+}
+.hero-info img{
+  width: 200px;
+}
+.hero-info h1, h6{
+  color: white;
+}
+.hero-info h1{
+  font-size: 36px;
+}
+.hero-info h6{
+  font-size:  16px;
 }
