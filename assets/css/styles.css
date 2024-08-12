@@ -1,5 +1,8 @@
 body{
   font-family: 'Nunito';
+  width: 100%;
+  margin: 0px;
+  background-color: skyblue;
 }
 
 .hero{
@@ -8,7 +11,7 @@ body{
 
 .carousel-item::before {
   content: "";
-  background-color: rgba(63, 101, 152, 0.7);
+  background-color: rgba(43, 68, 102, 0.7);
   position: absolute;
   top: 0;
   right: 0;
@@ -16,5 +19,6 @@ body{
   bottom: 0;
 }
 .carousel-item img{
-  /* height: px; */
+  height: 825px; 
+  object-fit: cover;
 }
