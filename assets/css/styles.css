@@ -2,7 +2,6 @@ body{
   font-family: 'Nunito';
   width: 100%;
   margin: 0px;
-  background-color: skyblue;
 }
 
 .hero{
@@ -41,4 +40,20 @@ h6 {
 
 .hero-info h6 {
   font-size: 20px;
+}
+.about-me{
+  top: -130px;
+}
+.about-me .left h6{
+  font-size: 18px;
+}
+.about-me .left p{
+  font-size: 16px;
+}
+/* .about-me .left p span{
+  
+} */
+
+.skills{
+  background-color: #F8F9FA;
 }
