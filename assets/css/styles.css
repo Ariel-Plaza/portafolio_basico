@@ -39,7 +39,7 @@ h6 {
 }
 
 .hero-info h6 {
-  font-size: 16px;
+  font-size: 20px;
 }
 .about-me{
   top: -130px;
@@ -53,3 +53,7 @@ h6 {
 /* .about-me .left p span{
   
 } */
+
+.skills{
+  background-color: #F8F9FA;
+}
