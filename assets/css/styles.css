@@ -58,8 +58,40 @@ h6 {
   
 } */
 
+/* Skills */
 .skills {
   background-color: #F8F9FA;
+}
+
+/* Cards */
+
+.card-container {
+  perspective: 1000px;
+}
+
+.card {
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+}
+
+.front {
+  position: relative;
+  top: 50px;
+}
+
+.back {
+  position: relative;
+    top: -60px;
+  transform: rotateY(180deg);
 }
 
 /* Experiencia */
