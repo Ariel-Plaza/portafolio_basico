@@ -4,6 +4,10 @@ body {
   margin: 0px;
 }
 
+a{
+  text-decoration: none;
+}
+
 .hero {}
 
 .carousel-item::before {
@@ -138,4 +142,8 @@ h6 {
 .card-body p {
   color: #8492a6;
   letter-spacing: 1px;
+}
+
+footer{
+  height: 50px;
 }
