@@ -8,8 +8,6 @@ a{
   text-decoration: none;
 }
 
-.hero {}
-
 .carousel-item::before {
   content: "";
   background-color: rgba(43, 68, 102, 0.7);
@@ -58,20 +56,12 @@ h6 {
   font-size: 16px;
 }
 
-/* .about-me .left p span{
-  
-} */
-
 /* Skills */
 .skills {
   background-color: #F8F9FA;
 }
 
 /* Cards */
-
-.card-container {
-  perspective: 1000px;
-}
 
 .card {
   transform-style: preserve-3d;
