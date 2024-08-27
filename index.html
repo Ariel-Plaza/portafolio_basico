@@ -251,13 +251,13 @@
     <!-- Experiencia Laboral -->
     <section class="experience col-11 mx-auto">
       <div class="container-experience d-flex flex-column mt-5">
-        <div class="experience-title text-center mb-5">
+        <div class="work mb-5">
           <h1>Experiencia Laboral</h1>
           <p>Experiencia en desarrollo web y tecnología, con habilidades en diseño de interfaces, desarrollo backend y
             gestión de bases de datos. Ademas cuento con experiencia en el area de soporte TI
           </p>
         </div>
-        <div class="experience-container-card">
+        <div class="container-card">
 
           <div class="card mb-5 mt-5">
             <div class="card-top">
@@ -324,18 +324,18 @@
     <section class="portfolio col-11 mx-auto">
       <div class="portfolio-title text-center mb-5">
         <h2>Mi Portafolio</h2>
-      <p>Mis ultimos proyectos</p>
+        <p>Mis ultimos proyectos</p>
       </div>
-      
+
       <div class="container-card-portfolio">
         <!-- <div class="card text-bg-dark w-25 h-25">
-          <img src="./assets/img/portafolio/screencapture-marticarroller-cl.png" class="card-img" alt="imagen pagina web aprmaicolpue">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Marticar Roller</h5>
-            <p class="card-text">Tienda Virtual desarrollada en Wordpress con pasarela de pago Woocommerce.</p>
-            <p class="card-text"><small> <a href="https://www.marticarroller.cl">www.marticarroller.cl</a></small></p>
-          </div>
-        </div> -->
+              <img src="./assets/img/portafolio/screencapture-marticarroller-cl.png" class="card-img" alt="imagen pagina web aprmaicolpue">
+              <div class="card-img-overlay">
+                <h5 class="card-title">Marticar Roller</h5>
+                <p class="card-text">Tienda Virtual desarrollada en Wordpress con pasarela de pago Woocommerce.</p>
+                <p class="card-text"><small> <a href="https://www.marticarroller.cl">www.marticarroller.cl</a></small></p>
+              </div>
+            </div> -->
 
         <!-- Galeria -->
         <div class="row">
@@ -345,9 +345,6 @@
               class="pic-portafolio1 w-100 shadow-1-strong rounded mb-4" alt="Aplicacion web Digimon API"
               data-bs-target="#pictureModal1" data-bs-toggle="modal" />
             <!-- Imagen2 -->
-            <img src="./assets/img/portafolio/mini-marticarroller.png"
-              class="pic-portafolio2 w-100 shadow-1-strong rounded mb-4" alt="Pagina web Marticar roller"
-              data-bs-target="#pictureModal2" data-bs-toggle="modal" />
             <img src="./assets/img/portafolio/mini-marticarroller.png"
               class="pic-portafolio2 w-100 shadow-1-strong rounded mb-4" alt="Pagina web Marticar roller"
               data-bs-target="#pictureModal2" data-bs-toggle="modal" />
@@ -497,9 +494,11 @@
           </div>
         </div>
 
+
       </div>
     </section>
-    <section class="contact-me">
+    <!-- Contactame -->
+    <section class="contact-me col-11 mx-auto text-center">
       <h2>Contactame</h2>
       <p>Estoy dispuesto para discutir proyectos y trabajos</p>
       <div class="contact-container gap-2 d-flex flex-column flex-md-row justify-content-center py-5">
@@ -538,16 +537,16 @@
         </div>
       </div>
       <!-- Formulario -->
-      <form class="row g-3">
+      <form class="row g-3" action="https://formspree.io/f/xeqdkkwj" method="post">
         <section class="up-input col-12 col-md-6">
           <div class="col-12 mb-2">
-            <input type="text" class="form-control" id="inputName" placeholder="Nombre:">
+            <input type="text" class="form-control" id="inputName" name="Nombre" placeholder="Nombre:">
           </div>
           <div class="col-12 mb-2">
-            <input type="email" class="form-control" id="inputEmail" placeholder="Email:">
+            <input type="email" class="form-control" id="inputEmail" name="Email" placeholder="Email:">
           </div>
           <div class="col-12 mb-2">
-            <input type="text" class="form-control" id="inputText" placeholder="Asunto:">
+            <input type="text" class="form-control" id="inputText" name="Asunto" placeholder="Asunto:">
           </div>
         </section>
         <div class="bottom-input col-12 col-md-6">
